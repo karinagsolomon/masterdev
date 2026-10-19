@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class GradeMessage_SwitchExpressions {
     public static void main(String[] args) {
         System.out.println("What was your letter grade? ");
