@@ -16,10 +16,10 @@ public class InstantCreditCheck {
         notifyUser(qualified);
     }
 
-    public static void  notifyUser(boolean qualified){
+    public static void notifyUser(boolean qualified){
         if (qualified) 
             System.out.println("Congrats, you qualify for a loan!");
-         else 
+        else 
             System.out.println("Sorry, you do not qualify for a loan");
     }
 
