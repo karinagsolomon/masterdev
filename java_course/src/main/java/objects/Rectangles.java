@@ -1,9 +1,9 @@
 package objects;
 
 public class Rectangles {
-    private double width;
-    private double length;
-    private int sides = 4;
+    protected double width;
+    protected double length;
+    protected int sides = 4;
 
     public Rectangles(){
         setLength(0);
@@ -45,5 +45,9 @@ public class Rectangles {
 
     public void setSides(int sides){
         this.sides = sides;
+    }
+
+    public void print(){
+        System.out.println("I am Rectangle");
     }
 }
