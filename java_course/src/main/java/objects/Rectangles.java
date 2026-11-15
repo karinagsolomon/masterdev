@@ -5,12 +5,12 @@ public class Rectangles {
     private double length;
     private int sides = 4;
 
-    public Rectangle(){
+    public Rectangles(){
         setLength(0);
         setWidth(0);
     }
 
-    public Rectangle(double length, double width){
+    public Rectangles(double length, double width){
         setLength(length);
         setWidth(width);
     }
