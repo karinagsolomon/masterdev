@@ -18,7 +18,7 @@ public class LotteryTicket {
         for(int i=0; i<LENGTH; i++){
             int randomNumber;
             do {
-                randomNumber = random.nextInt(1, MAX_FINAL_NUMBER);
+                randomNumber = random.nextInt(1, MAX_FINAL_NUMBER + 1);
             }
             while (search(ticket, randomNumber)); 
             
