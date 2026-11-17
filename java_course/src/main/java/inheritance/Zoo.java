@@ -6,10 +6,11 @@ public class Zoo {
         // rocky.fetch();
         // rocky.makeSound();
 
-        // Animal sasha = new Dog();
+        Animal sasha = new Dog();
         // sasha.makeSound();
 
-        Animal sasha = new Cat();
+        sasha = new Cat();
         sasha.makeSound();
+        ((Cat)sasha).scratch();
     }
 }
