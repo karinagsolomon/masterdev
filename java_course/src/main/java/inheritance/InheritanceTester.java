@@ -8,7 +8,7 @@ public class InheritanceTester {
         // Employee employee = new Employee();
 
         Square square = new Square();
-        square.setLength(25);
+        square.setLength(20);
         System.out.println(square.calculatePerimeter());
 
         Rectangles rectangles = new Rectangles();
