@@ -9,6 +9,6 @@ public class Square extends Rectangles{
     }
 
     public void print(String what){
-        System.out.println("I am a " + what);
+        System.out.println("I am this shape: " + what);
     }
 }
